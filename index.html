@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUHANNA — Luxury Redefined</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg: #0a0a0a;
+            --bg-elevated: #111111;
+            --bg-card: #161616;
+            --text: #ffffff;
+            --text-muted: #7a7a7a;
+            --accent: #c9a962;
+            --accent-light: #e4d4a5;
+            --accent-dark: #9a7b3c;
+            --accent-glow: rgba(201, 169, 98, 0.35);
+            --cream: #f5f0e8;
+            --border: #2a2a2a;
+            --border-light: #3a3a3a;
+        }
+
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background: var(--bg);
+            color: var(--text);
+            overflow-x: hidden;
+            cursor: none;
+        }
+
+        /* ═══════════════════════════════════════
+           TYPOGRAPHY SYSTEM — LOGO FONT
+        ═══════════════════════════════════════ */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 400;
+        }
+
+        /* ═══════════════════════════════════════
+           CUSTOM CURSOR — GOLDEN
+        ═══════════════════════════════════════ */
+        .cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--accent);
+            pointer-events: none;
+            z-index: 9999;
+            transition: all 0.15s ease;
+            mix-blend-mode: difference;
+        }
+        .cursor.hovering {
+            width: 60px;
+            height: 60px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+        @media (max-width: 768px) {
+            .cursor { display: none; }
+            body { cursor: auto; }
+        }
+
+        /* ═══════════════════════════════════════
+           INTRO SEQUENCE
+        ═══════════════════════════════════════ */
+        .intro {
+            position: fixed;
+            inset: 0;
+            background: var(--bg);
+            z-index: 10000;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            transition: opacity 0.8s ease, visibility 0.8s ease;
+        }
+        
+        .intro-content {
+            text-align: center;
+        }
+        .intro-logo {
+            opacity: 0;
+            animation: introFade 1s ease 0.3s forwards;
+        }
+        .intro-logo img {
+            height: 120px;
+            width: auto;
+            filter: brightness(1.1);
+        }
+        @media (max-width: 768px) {
+            .intro-logo img {
+                height: 90px;
+            }
+        }
+        .intro-tagline {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.9rem;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-top: 1.5rem;
+            opacity: 0;
+            animation: introFade 1s ease 0.6s forwards;
+            font-weight: 400;
+        }
+        @keyframes introFade {
+            to { opacity: 1; }
+        }
+
+        /* ═══════════════════════════════════════
+           LOGO — TOP LEFT (SCROLLS WITH PAGE)
+        ═══════════════════════════════════════ */
+        .site-logo {
+            position: absolute;
+            top: 2.5rem;
+            left: 3rem;
+            z-index: 100;
+            text-decoration: none;
+        }
+        .site-logo img {
+            height: 120px;
+            width: auto;
+            filter: brightness(1.1);
+            transition: transform 0.3s ease;
+        }
+        .site-logo:hover img {
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .site-logo {
+                position: relative;
+                top: auto;
+                left: auto;
+                transform: none;
+                display: none;
+            }
+        }
+        
+        /* Mobile logo inside hero */
+        .hero-mobile-logo {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .hero-mobile-logo {
+                display: block;
+                margin-bottom: 1rem;
+            }
+            .hero-mobile-logo img {
+                width: 70vw;
+                max-width: 280px;
+                height: auto;
+                filter: brightness(1.1);
+            }
+        }
+
+        /* ═══════════════════════════════════════
+           NAVIGATION — FLOATING PILLS
+        ═══════════════════════════════════════ */
+        .nav {
+            position: fixed;
+            top: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.5rem;
+            background: rgba(16, 16, 16, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+        }
+        @media (max-width: 768px) {
+            .nav {
+                top: 1rem;
+                padding: 0.4rem;
+                gap: 0.2rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .nav {
+                padding: 0.3rem;
+            }
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 0.2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.85rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            padding: 0.6rem 1rem;
+            border-radius: 100px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .nav-links a {
+                font-size: 0.7rem;
+                padding: 0.5rem 0.7rem;
+                letter-spacing: 0.08em;
+            }
+        }
+        @media (max-width: 480px) {
+            .nav-links a {
+                font-size: 0.65rem;
+                padding: 0.45rem 0.5rem;
+                letter-spacing: 0.05em;
+            }
+        }
+        .nav-links a:hover {
+            color: var(--bg);
+            background: var(--accent);
+        }
+
+        /* ═══════════════════════════════════════
+           HERO — MASSIVE TYPOGRAPHY
+        ═══════════════════════════════════════ */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 8rem 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+        @media (max-width: 768px) {
+            .hero { padding: 8rem 1.5rem 6rem; }
+        }
+        
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            animation: heroBgIn 1.5s ease 2.5s forwards;
+            overflow: hidden;
+        }
+        @keyframes heroBgIn {
+            to { opacity: 1; }
+        }
+        
+        .hero-bg video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        @media (max-width: 768px) {
+            .hero-bg video {
+                object-position: center center;
+            }
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to right,
+                rgba(10, 10, 10, 0.95) 0%,
+                rgba(10, 10, 10, 0.85) 30%,
+                rgba(10, 10, 10, 0.5) 60%,
+                rgba(10, 10, 10, 0.3) 100%
+            );
+            z-index: 1;
+        }
+        @media (max-width: 768px) {
+            .hero-overlay {
+                background: linear-gradient(
+                    to bottom,
+                    rgba(10, 10, 10, 0.7) 0%,
+                    rgba(10, 10, 10, 0.6) 50%,
+                    rgba(10, 10, 10, 0.8) 100%
+                );
+            }
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+        }
+        
+        .hero-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 2rem;
+            opacity: 0;
+            animation: heroIn 1s ease 2.8s forwards;
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .hero-label {
+                margin-bottom: 1rem;
+                font-size: 0.8rem;
+                letter-spacing: 0.25em;
+            }
+        }
+        .hero-label::before {
+            content: '';
+            width: 50px;
+            height: 1px;
+            background: var(--accent);
+        }
+        
+        .hero-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(4rem, 12vw, 10rem);
+            font-weight: 300;
+            line-height: 0.95;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+        }
+        .hero-title .line {
+            display: block;
+            overflow: hidden;
+        }
+        .hero-title .line span {
+            display: block;
+            opacity: 0;
+            transform: translateY(100%);
+            animation: titleReveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .hero-title .line:nth-child(1) span { animation-delay: 2.9s; }
+        .hero-title .line:nth-child(2) span { animation-delay: 3s; }
+        .hero-title .line:nth-child(3) span { 
+            animation-delay: 3.1s;
+            color: var(--accent);
+            font-style: italic;
+            text-transform: none;
+            letter-spacing: 0.05em;
+        }
+        @keyframes titleReveal {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes heroIn {
+            to { opacity: 1; }
+        }
+        
+        .hero-desc {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            max-width: 480px;
+            line-height: 1.9;
+            margin-bottom: 3rem;
+            opacity: 0;
+            animation: heroIn 1s ease 3.3s forwards;
+        }
+        
+        .hero-actions {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            opacity: 0;
+            animation: heroIn 1s ease 3.5s forwards;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.2rem 2.2rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            font-weight: 500;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: var(--bg);
+        }
+        .btn-primary:hover {
+            background: var(--accent-light);
+            transform: translateY(-3px);
+            box-shadow: 0 20px 40px var(--accent-glow);
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+        }
+        .btn-outline:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        .btn svg {
+            width: 16px;
+            height: 16px;
+            transition: transform 0.3s ease;
+        }
+        .btn:hover svg {
+            transform: translateX(5px);
+        }
+
+        /* ═══════════════════════════════════════
+           ABOUT — BENTO GRID
+        ═══════════════════════════════════════ */
+        .about {
+            padding: 8rem 4rem;
+            background: var(--bg);
+        }
+        @media (max-width: 768px) {
+            .about { padding: 4rem 1.5rem; }
+        }
+        
+        .bento {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, auto);
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        @media (max-width: 1024px) {
+            .bento { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .bento { grid-template-columns: 1fr; }
+        }
+        
+        .bento-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .bento-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+        
+        .bento-card.span-2 { grid-column: span 2; }
+        .bento-card.span-3 { grid-column: span 3; }
+        .bento-card.row-2 { grid-row: span 2; }
+        @media (max-width: 600px) {
+            .bento-card.span-2,
+            .bento-card.span-3 { grid-column: span 1; }
+            .bento-card.row-2 { grid-row: span 1; }
+        }
+        
+        .bento-label {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.85rem;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+        
+        .bento-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.8rem;
+            font-weight: 300;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.02em;
+        }
+        @media (max-width: 768px) {
+            .bento-title { font-size: 2.2rem; }
+        }
+        
+        .bento-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            line-height: 1.9;
+            font-weight: 400;
+        }
+        
+        .bento-stat {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        .bento-stat-value {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 5rem;
+            font-weight: 300;
+            color: var(--accent);
+            line-height: 1;
+        }
+        @media (max-width: 768px) {
+            .bento-stat-value { font-size: 3rem; }
+        }
+        .bento-stat-label {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-top: 1rem;
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .bento-stat-label {
+                font-size: 0.75rem;
+                margin-top: 0.5rem;
+            }
+        }
+        
+        /* Combined stats row for mobile */
+        .bento-stats-row {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .bento-stats-row {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                gap: 1rem;
+            }
+            .bento-stats-row .bento-stat {
+                text-align: center;
+                flex: 1;
+            }
+        }
+        @media (min-width: 769px) {
+            .bento-stats-row {
+                display: none;
+            }
+        }
+        
+        /* Hide individual stat cards on mobile, show on desktop */
+        .bento-card.bento-stat-single {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .bento-card.bento-stat-single {
+                display: none;
+            }
+        }
+        
+        .bento-image {
+            padding: 0;
+        }
+        .bento-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            min-height: 300px;
+            filter: grayscale(30%) sepia(10%);
+            transition: filter 0.5s ease;
+        }
+        .bento-image:hover img {
+            filter: grayscale(0%) sepia(5%);
+        }
+
+        /* ═══════════════════════════════════════
+           COLLECTION — HORIZONTAL SCROLL / VERTICAL ON MOBILE
+        ═══════════════════════════════════════ */
+        .collection {
+            padding: 6rem 0;
+            background: var(--bg-elevated);
+            overflow: hidden;
+        }
+        @media (max-width: 768px) {
+            .collection {
+                padding: 4rem 0;
+                overflow: visible;
+            }
+        }
+        
+        .collection-header {
+            padding: 0 4rem 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        @media (max-width: 768px) {
+            .collection-header {
+                padding: 0 1.5rem 2rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1.5rem;
+            }
+        }
+        
+        .collection-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        
+        .collection-nav {
+            display: flex;
+            gap: 1rem;
+        }
+        @media (max-width: 768px) {
+            .collection-nav {
+                display: none;
+            }
+        }
+        .collection-nav button {
+            width: 50px;
+            height: 50px;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .collection-nav button:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--bg);
+        }
+        .collection-nav svg {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .collection-track {
+            display: flex;
+            gap: 1.5rem;
+            padding: 0 4rem;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        .collection-track::-webkit-scrollbar {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .collection-track {
+                flex-direction: column;
+                padding: 0 1.5rem;
+                gap: 1.5rem;
+                overflow-x: visible;
+                scroll-snap-type: none;
+            }
+        }
+        
+        .collection-item {
+            flex: 0 0 auto;
+            width: 400px;
+            scroll-snap-align: start;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .collection-item {
+                width: 100%;
+                flex: none;
+            }
+        }
+        
+        .collection-item img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        @media (max-width: 768px) {
+            .collection-item img {
+                height: 350px;
+            }
+        }
+        .collection-item:hover img {
+            transform: scale(1.08);
+        }
+        
+        .collection-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 2rem;
+            background: linear-gradient(to top, rgba(10,10,10,0.95), transparent);
+        }
+        
+        .collection-index {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.15em;
+            font-weight: 500;
+        }
+        
+        .collection-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 0.3rem;
+            letter-spacing: 0.03em;
+        }
+        
+        .collection-material {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.9rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* ═══════════════════════════════════════
+           MATERIALS — STACKED CARDS
+        ═══════════════════════════════════════ */
+        .materials {
+            padding: 8rem 4rem;
+            background: var(--bg);
+        }
+        @media (max-width: 768px) {
+            .materials { padding: 4rem 1.5rem; }
+        }
+        
+        .materials-header {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+        
+        .materials-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .materials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        @media (max-width: 900px) {
+            .materials-grid { grid-template-columns: 1fr; }
+        }
+        
+        .material-card {
+            position: relative;
+            height: 550px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        @media (max-width: 900px) {
+            .material-card { height: 400px; }
+        }
+        
+        .material-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .material-card:hover img {
+            transform: scale(1.15);
+        }
+        
+        .material-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.3) 50%, rgba(10,10,10,0.5) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 2.5rem;
+        }
+        
+        .material-number {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            color: var(--accent);
+            letter-spacing: 0.15em;
+            font-weight: 500;
+        }
+        
+        .material-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            letter-spacing: 0.03em;
+        }
+        
+        .material-desc {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            font-weight: 400;
+        }
+        .material-card:hover .material-desc {
+            max-height: 200px;
+            opacity: 1;
+        }
+
+        /* ═══════════════════════════════════════
+           CONTACT — SPLIT SCREEN
+        ═══════════════════════════════════════ */
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 100vh;
+        }
+        @media (max-width: 900px) {
+            .contact { grid-template-columns: 1fr; }
+        }
+        
+        .contact-visual {
+            position: relative;
+            background: linear-gradient(135deg, var(--accent-dark), var(--accent), var(--accent-light));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem;
+            overflow: hidden;
+        }
+        @media (max-width: 900px) {
+            .contact-visual { padding: 4rem 2rem; min-height: 400px; }
+        }
+        
+        .contact-visual-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-style: italic;
+            font-weight: 300;
+            color: var(--bg);
+            text-align: center;
+            line-height: 1.15;
+        }
+        
+        .contact-visual-subtext {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: var(--bg);
+            opacity: 0.75;
+            margin-top: 2rem;
+            font-weight: 500;
+        }
+        
+        .contact-form-section {
+            padding: 6rem 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: var(--bg-elevated);
+        }
+        @media (max-width: 768px) {
+            .contact-form-section { padding: 4rem 1.5rem; }
+        }
+        
+        .contact-form-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.5rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-form-subtitle {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+            font-weight: 400;
+        }
+        
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        @media (max-width: 600px) {
+            .form-row { grid-template-columns: 1fr; }
+        }
+        
+        .form-group {
+            position: relative;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1.5rem 0 1rem;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid var(--border);
+            color: var(--text);
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            transition: border-color 0.3s ease;
+        }
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .form-group textarea {
+            min-height: 100px;
+            resize: none;
+        }
+        
+        .form-group label {
+            position: absolute;
+            left: 0;
+            top: 1.5rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            pointer-events: none;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        .form-group input:focus + label,
+        .form-group input:not(:placeholder-shown) + label,
+        .form-group textarea:focus + label,
+        .form-group textarea:not(:placeholder-shown) + label {
+            top: 0;
+            font-size: 0.8rem;
+            color: var(--accent);
+        }
+        
+        .form-submit {
+            align-self: flex-start;
+            padding: 1.2rem 3rem;
+            background: var(--accent);
+            border: none;
+            border-radius: 100px;
+            color: var(--bg);
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            font-weight: 500;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+        .form-submit:hover {
+            background: var(--accent-light);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px var(--accent-glow);
+        }
+        
+        .contact-details {
+            display: flex;
+            gap: 3rem;
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid var(--border);
+            flex-wrap: wrap;
+        }
+        @media (max-width: 768px) {
+            .contact-details {
+                flex-direction: column;
+                gap: 1.5rem;
+                text-align: center;
+            }
+        }
+        
+        .contact-detail {
+            flex: 1;
+            min-width: 150px;
+        }
+        @media (max-width: 768px) {
+            .contact-detail {
+                min-width: 100%;
+            }
+        }
+        .contact-detail-label {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.85rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .contact-detail-value {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            color: var(--text);
+            font-weight: 400;
+        }
+        .contact-detail-value a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-detail-value a:hover {
+            color: var(--accent);
+        }
+
+        /* ═══════════════════════════════════════
+           FOOTER
+        ═══════════════════════════════════════ */
+        .footer {
+            padding: 3rem 4rem;
+            background: var(--bg);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        @media (max-width: 768px) {
+            .footer {
+                padding: 2rem 1.5rem;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        .footer-logo img {
+            height: 36px;
+            width: auto;
+            filter: brightness(1.1);
+        }
+        @media (max-width: 768px) {
+            .footer-logo img {
+                height: 30px;
+            }
+        }
+        
+        .footer-copyright {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.9rem;
+            letter-spacing: 0.15em;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        /* ═══════════════════════════════════════
+           SCROLL REVEAL ANIMATIONS
+        ═══════════════════════════════════════ */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+
+        /* ═══════════════════════════════════════
+           GOLDEN ACCENT DECORATIVE LINE
+        ═══════════════════════════════════════ */
+        .golden-divider {
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <div class="intro">
+        <div class="intro-content">
+            <div class="intro-logo"><img src="muhanna-logo.png" alt="Muhanna"></div>
+            <div class="intro-tagline">Luxury Redefined</div>
+        </div>
+    </div>
+
+    <a href="#" class="site-logo"><img src="muhanna-logo.png" alt="Muhanna"></a>
+
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg">
+            <video autoplay muted loop playsinline>
+                <source src="banner.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <a href="#" class="hero-mobile-logo"><img src="muhanna-logo.png" alt="Muhanna"></a>
+            <div class="hero-label">Est. 1998 — Dubai</div>
+            <h1 class="hero-title">
+                <div class="line"><span>Artisan</span></div>
+                <div class="line"><span>Luxury</span></div>
+                <div class="line"><span>Redefined</span></div>
+            </h1>
+            <p class="hero-desc">Where Arabian heritage meets contemporary craft. Each piece is a testament to generations of master craftsmanship.</p>
+            <div class="hero-actions">
+                <a href="#collection" class="btn btn-primary">
+                    <span>Explore</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection" id="collection">
+        <div class="collection-header">
+            <h2 class="collection-title reveal">The Collection</h2>
+            <div class="collection-nav reveal reveal-delay-1">
+                <button onclick="scrollCollection(-1)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+                <button onclick="scrollCollection(1)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+        <div class="collection-track" id="collectionTrack">
+            <div class="collection-item">
+                <img src="product-1.jpg" alt="Incense Burner Set">
+                <div class="collection-info">
+                    <div class="collection-index">01</div>
+                    <h3 class="collection-name">Incense Burner Set</h3>
+                    <span class="collection-material">Walnut & Mother of Pearl</span>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="product-4.jpg" alt="Heritage Date Box">
+                <div class="collection-info">
+                    <div class="collection-index">02</div>
+                    <h3 class="collection-name">Heritage Date Box</h3>
+                    <span class="collection-material">Crocodile Leather & Pearl</span>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="product-2.jpg" alt="Tissue Box">
+                <div class="collection-info">
+                    <div class="collection-index">03</div>
+                    <h3 class="collection-name">Luxury Tissue Box</h3>
+                    <span class="collection-material">Walnut & Crocodile Leather</span>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="product-5.jpg" alt="Coffee Coaster">
+                <div class="collection-info">
+                    <div class="collection-index">04</div>
+                    <h3 class="collection-name">Arabesque Coaster</h3>
+                    <span class="collection-material">Walnut & Mother of Pearl</span>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="product-6.jpg" alt="Serving Tray">
+                <div class="collection-info">
+                    <div class="collection-index">05</div>
+                    <h3 class="collection-name">Royal Serving Tray</h3>
+                    <span class="collection-material">Walnut & Pearl Inlay</span>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="product-3.jpg" alt="Keychain">
+                <div class="collection-info">
+                    <div class="collection-index">06</div>
+                    <h3 class="collection-name">Artisan Keychain</h3>
+                    <span class="collection-material">Wood, Pearl & Leather</span>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="product-7.jpg" alt="Phone Case">
+                <div class="collection-info">
+                    <div class="collection-index">07</div>
+                    <h3 class="collection-name">Luxury Phone Case</h3>
+                    <span class="collection-material">Walnut & Pearl Inlay</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="bento">
+            <div class="bento-card span-2 reveal">
+                <div class="bento-label">Our Heritage</div>
+                <h2 class="bento-title">A Legacy of Artisanal Excellence</h2>
+                <p class="bento-text">At Muhanna, we believe true luxury lies in the details. Our master craftsmen transform the finest materials into objects that transcend time.</p>
+            </div>
+            <!-- Desktop: Two separate stat cards -->
+            <div class="bento-card bento-stat-single reveal reveal-delay-1">
+                <div class="bento-stat">
+                    <div class="bento-stat-value">25+</div>
+                    <div class="bento-stat-label">Years of Craft</div>
+                </div>
+            </div>
+            <div class="bento-card bento-stat-single reveal reveal-delay-2">
+                <div class="bento-stat">
+                    <div class="bento-stat-value">100%</div>
+                    <div class="bento-stat-label">Handmade</div>
+                </div>
+            </div>
+            <!-- Mobile: Combined stats row -->
+            <div class="bento-card bento-stats-row reveal reveal-delay-1">
+                <div class="bento-stat">
+                    <div class="bento-stat-value">25+</div>
+                    <div class="bento-stat-label">Years of Craft</div>
+                </div>
+                <div class="bento-stat">
+                    <div class="bento-stat-value">100%</div>
+                    <div class="bento-stat-label">Handmade</div>
+                </div>
+            </div>
+            <div class="bento-card bento-image reveal">
+                <img src="about.jpg" alt="Craftsmanship detail">
+            </div>
+            <div class="bento-card reveal reveal-delay-1">
+                <div class="bento-label">Philosophy</div>
+                <p class="bento-text">Every creation tells a story of patience, precision, and passion—values passed down through generations.</p>
+            </div>
+            <div class="bento-card span-2 reveal reveal-delay-2">
+                <div class="bento-label">Our Promise</div>
+                <h2 class="bento-title">Timeless Beauty, Enduring Quality</h2>
+                <p class="bento-text">We source only the finest materials from across the globe, ensuring each piece becomes a cherished heirloom for generations to come.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="golden-divider"></div>
+
+    <section class="materials" id="materials">
+        <div class="materials-header">
+            <h2 class="materials-title reveal">Exceptional Materials</h2>
+        </div>
+        <div class="materials-grid">
+            <div class="material-card reveal">
+                <img src="material-walnut.webp" alt="Walnut Wood">
+                <div class="material-overlay">
+                    <h3 class="material-name">Walnut Wood</h3>
+                    <p class="material-desc">Sustainably sourced from centuries-old forests, each grain tells a unique story of nature's artistry.</p>
+                </div>
+            </div>
+            <div class="material-card reveal reveal-delay-1">
+                <img src="material-pearl.webp" alt="Mother of Pearl">
+                <div class="material-overlay">
+                    <h3 class="material-name">Mother of Pearl</h3>
+                    <p class="material-desc">Hand-selected iridescent shells transformed into mesmerizing inlays that catch light from every angle.</p>
+                </div>
+            </div>
+            <div class="material-card reveal reveal-delay-2">
+                <img src="material-leather.jpg" alt="Premium Leather">
+                <div class="material-overlay">
+                    <h3 class="material-name">Premium Leather</h3>
+                    <p class="material-desc">Hand-selected crocodile and exotic leathers adding texture and unmatched luxury to every piece we create.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-visual">
+            <div class="contact-visual-text">Let's Create Something Extraordinary</div>
+            <div class="contact-visual-subtext">Commission Your Piece</div>
+        </div>
+        <div class="contact-form-section">
+            <h2 class="contact-form-title reveal">Get in Touch</h2>
+            <p class="contact-form-subtitle reveal reveal-delay-1">Every creation can be personalized to your vision.</p>
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group reveal reveal-delay-1">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group reveal reveal-delay-2">
+                        <input type="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                </div>
+                <div class="form-group reveal reveal-delay-2">
+                    <textarea id="message" placeholder=" " required></textarea>
+                    <label for="message">Your Vision</label>
+                </div>
+                <button type="submit" class="form-submit reveal reveal-delay-3">Send Inquiry</button>
+            </form>
+            <div class="contact-details reveal reveal-delay-3">
+                <div class="contact-detail">
+                    <div class="contact-detail-label">Email</div>
+                    <div class="contact-detail-value"><a href="mailto:info@muhannacraft.com">info@muhannacraft.com</a></div>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-label">Phone</div>
+                    <div class="contact-detail-value"><a href="tel:+971559396618">+971 55 939 6618</a></div>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-label">WhatsApp</div>
+                    <div class="contact-detail-value"><a href="https://wa.me/971559396618" target="_blank">+971 55 939 6618</a></div>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-label">Location</div>
+                    <div class="contact-detail-value">Dubai, UAE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="#" class="footer-logo"><img src="muhanna-logo.png" alt="Muhanna"></a>
+        <p class="footer-copyright">&copy; 2026 Muhanna. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Intro animation - simpler approach
+        window.addEventListener('DOMContentLoaded', function() {
+            const intro = document.querySelector('.intro');
+            setTimeout(function() {
+                intro.style.opacity = '0';
+                intro.style.visibility = 'hidden';
+                intro.style.pointerEvents = 'none';
+            }, 2500);
+        });
+
+        // Custom cursor
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', function(e) {
+            cursor.style.left = e.clientX - 10 + 'px';
+            cursor.style.top = e.clientY - 10 + 'px';
+        });
+
+        document.querySelectorAll('a, button, .collection-item, .material-card, .bento-card').forEach(function(el) {
+            el.addEventListener('mouseenter', function() { cursor.classList.add('hovering'); });
+            el.addEventListener('mouseleave', function() { cursor.classList.remove('hovering'); });
+        });
+
+        // Scroll reveal
+        var reveals = document.querySelectorAll('.reveal');
+        function revealOnScroll() {
+            reveals.forEach(function(el) {
+                if (el.getBoundingClientRect().top < window.innerHeight * 0.88) {
+                    el.classList.add('visible');
+                }
+            });
+        }
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll();
+
+        // Collection scroll
+        function scrollCollection(direction) {
+            var track = document.getElementById('collectionTrack');
+            track.scrollBy({ left: direction * 420, behavior: 'smooth' });
+        }
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                var target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({ top: target.offsetTop - 100, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
