@@ -1,0 +1,177 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-vertical-walnut-tan-leather-tealight-holder",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/the-apex-walnut-business-card-holder",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/the-solid-walnut-executive-pen-base",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/walnut-mother-of-pearl-executive-candle-base",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
+      "destination": "/#collection",
+      "permanent": true
+    },
+
+    {
+      "source": "/collections/vip-collection",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/hospitality",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/candles",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/bags",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/gifts",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/business",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/buisness",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    { "source": "/collections/all", "destination": "/#collection", "permanent": true },
+    { "source": "/vip-collection", "destination": "/#collection", "permanent": true },
+
+    { "source": "/pages/our-story", "destination": "/#about", "permanent": true },
+    { "source": "/pages/about", "destination": "/#about", "permanent": true },
+    { "source": "/pages/about-us", "destination": "/#about", "permanent": true },
+    { "source": "/pages/contact", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/contact-us", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/materials", "destination": "/#materials", "permanent": true },
+
+    { "source": "/collections/:slug/products/:handle", "destination": "/#collection", "permanent": true },
+    { "source": "/collections/:slug*", "destination": "/#collection", "permanent": true },
+    { "source": "/products/:handle*", "destination": "/#collection", "permanent": true },
+    { "source": "/pages/:handle*", "destination": "/#about", "permanent": true },
+    { "source": "/blogs/:path*", "destination": "/#about", "permanent": true },
+    { "source": "/policies/:path*", "destination": "/#contact", "permanent": true },
+    { "source": "/search", "destination": "/#collection", "permanent": true },
+    { "source": "/cart", "destination": "/#contact", "permanent": true },
+    { "source": "/cart/:path*", "destination": "/#contact", "permanent": true },
+    { "source": "/checkout", "destination": "/#contact", "permanent": true },
+    { "source": "/checkouts/:path*", "destination": "/#contact", "permanent": true },
+    { "source": "/account", "destination": "/#contact", "permanent": true },
+    { "source": "/account/:path*", "destination": "/#contact", "permanent": true },
+    { "source": "/apps/:path*", "destination": "/", "permanent": true },
+    { "source": "/a/:path*", "destination": "/", "permanent": true },
+    { "source": "/tools/:path*", "destination": "/", "permanent": true },
+    { "source": "/challenge", "destination": "/", "permanent": true },
+    { "source": "/password", "destination": "/", "permanent": true },
+    { "source": "/sitemap_products_1.xml", "destination": "/sitemap.xml", "permanent": true },
+    { "source": "/sitemap_collections_1.xml", "destination": "/sitemap.xml", "permanent": true },
+    { "source": "/sitemap_pages_1.xml", "destination": "/sitemap.xml", "permanent": true },
+
+    { "source": "/en", "destination": "/", "permanent": true },
+    { "source": "/en/products/:handle*", "destination": "/#collection", "permanent": true },
+    { "source": "/en/collections/:slug/products/:handle", "destination": "/#collection", "permanent": true },
+    { "source": "/en/collections/:slug*", "destination": "/#collection", "permanent": true },
+    { "source": "/en/pages/:handle*", "destination": "/#about", "permanent": true },
+    { "source": "/en/blogs/:path*", "destination": "/#about", "permanent": true },
+    { "source": "/en/policies/:path*", "destination": "/#contact", "permanent": true },
+    { "source": "/en/search", "destination": "/#collection", "permanent": true },
+    { "source": "/en/cart/:path*", "destination": "/#contact", "permanent": true },
+    { "source": "/en/account/:path*", "destination": "/#contact", "permanent": true },
+    { "source": "/en/:path*", "destination": "/", "permanent": true },
+
+    { "source": "/ar", "destination": "/", "permanent": true },
+    { "source": "/ar/:path*", "destination": "/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(jpg|jpeg|png|webp|avif|svg|ico|woff2)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    }
+  ]
+}
