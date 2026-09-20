@@ -1,0 +1,735 @@
+{
+  "_readme": "HOW TO EDIT — دليل التعديل | Edit this file, then run: node build.js | كل المحتوى هنا. عدّل هذا الملف ثم شغّل الأمر أعلاه.",
+  "config": {
+    "brand": "Muhanna Craft",
+    "brandAr": "مهنّا كرافت",
+    "tagline": "Luxury handcrafted wood, leather & mother-of-pearl",
+    "taglineAr": "قطع فاخرة مصنوعة يدوياً من الخشب والجلد والصدف",
+    "domain": "https://muhannacraft.com",
+    "whatsapp": "971559396618",
+    "phone": "+971 55 939 6618",
+    "email": "info@muhannacraft.com",
+    "city": "Dubai",
+    "cityAr": "دبي",
+    "country": "AE",
+    "instagram": "https://www.instagram.com/muhannacraft",
+    "founder": "Omar Muhanna",
+    "founderAr": "عمر مهنّا",
+    "shippingDays": "7",
+    "shippingNote": "Shipping within 7 working days",
+    "shippingNoteAr": "الشحن خلال 7 أيام عمل",
+    "bagsShippingNote": "Handbags: within 40 working days",
+    "bagsShippingNoteAr": "الحقائب: خلال 40 يوم عمل",
+    "madeToOrder": "This product is handcrafted for you upon order.",
+    "madeToOrderAr": "هذا المنتج يُصنع يدوياً خصيصاً لك عند الطلب."
+  },
+  "story": {
+    "ar": "بدأ كل شيء في متجر صغير في دمشق. في عام 1971، بدأ جدّي، محمد خالد طيارة، رحلته في صناعة الحقائب من الجلود في حي الصالحية. منذ تلك اللحظة، أصبحت الحرفية جزءاً من هوية عائلتنا. كأطفال، كنت أنا وأخي نقضي ساعات في ورشته… نراقب، نتعلّم، ونقع في حب التفاصيل الصغيرة. وهذا الشغف… بقي معنا. كبرنا، واتجهنا إلى عالم التكنولوجيا، وعملنا لأكثر من 15 عاماً في البرمجة والذكاء الاصطناعي. لكن حب الحرفة لم يغادرنا يوماً. واليوم، نعود إلى الجذور… بطريقتنا الخاصة. نمزج الجلد الطبيعي مع الخشب والصدف، لنصنع قطعاً عصرية، فريدة، ومليئة بالتفاصيل. مهنّا كرافت ليست مجرد منتجات، بل هي قصة عائلة… تراث… وشغف ينتقل عبر الأجيال.",
+    "en": "It all began in a small shop in Damascus. In 1971, my grandfather, Mohammad Khaled Tayara, started his journey crafting leather bags in the Salhieh district. From that moment, craftsmanship became part of our family's identity. As children, my brother and I spent hours in his workshop — watching, learning, and falling in love with the smallest details. That passion never left us. We grew up and turned to technology, spending more than 15 years in software and artificial intelligence. But the love of the craft never left us. Today, we return to our roots in our own way: blending natural leather with wood and mother-of-pearl to create contemporary pieces, each unique and full of detail. Muhanna Craft is not merely a set of products — it is a family story, a heritage, and a passion passed down through generations.",
+    "signatureAr": "رسالة من المؤسس: عمر مهنّا",
+    "signatureEn": "A message from the founder: Omar Muhanna"
+  },
+  "categories": [
+    {
+      "slug": "hospitality",
+      "en": "Hospitality",
+      "ar": "الضيافة"
+    },
+    {
+      "slug": "candles",
+      "en": "Candles",
+      "ar": "الشموع"
+    },
+    {
+      "slug": "business",
+      "en": "Business",
+      "ar": "الأعمال"
+    },
+    {
+      "slug": "bags",
+      "en": "Bags",
+      "ar": "الحقائب"
+    },
+    {
+      "slug": "gifts",
+      "en": "Gifts",
+      "ar": "الهدايا"
+    }
+  ],
+  "products": [
+    {
+      "slug": "luxury-walnut-textured-leather-incense-burner-mabkhara",
+      "oldSlug": "luxury-walnut-textured-leather-incense-burner-mabkhara",
+      "cat": "hospitality",
+      "img": "product-1.jpg",
+      "en": "Luxury Incense Burner – Walnut Wood, Leather & Mother-of-Pearl",
+      "ar": "مبخرة فاخرة من خشب الجوز والجلد والصدف",
+      "dims": "8 cm × 17.7 cm, 8 cm × 11 cm · Base: 20 cm × 10.4 cm",
+      "dimsAr": "الأبعاد: 8cm x 17.7cm ، 8cm x 11cm · القاعدة: 20cm x 10.4cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Elegant and luxurious design",
+        "Suitable for majlis, reception areas, or offices",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة التّمساح",
+        "تصميم أنيق وفاخر",
+        "يمكن استخدامها للمجلس أو صالة الاستقبال أو المكاتب",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": true
+    },
+    {
+      "slug": "luxury-serving-tray-walnut-mother-of-pearl",
+      "cat": "hospitality",
+      "img": "product-6.jpg",
+      "en": "Luxury Serving Tray – Walnut Wood with Mother-of-Pearl Inlay",
+      "ar": "صينية ضيافة فاخرة من خشب الجوز بتطعيمات من الصدف",
+      "dims": "11.8 cm × 32.2 cm · Base diameter: 9 cm",
+      "dimsAr": "الأبعاد: 11.8cm x 32.2cm · قطر القاعدة: 9cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Elegant and luxurious design",
+        "Suitable for serving nuts or sweets",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تصميم أنيق وفاخر",
+        "يمكن استخدامها للمكسرات أو الحلويات",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": true
+    },
+    {
+      "slug": "luxury-tissue-box-walnut-leather-mother-of-pearl",
+      "cat": "hospitality",
+      "img": "product-2.jpg",
+      "en": "Luxury Tissue Box – Walnut Wood, Leather & Mother-of-Pearl",
+      "ar": "علبة المحارم الفاخرة من خشب الجوز والجلد والصدف",
+      "dims": "22.7 cm × 12.7 cm × 6.5 cm",
+      "dimsAr": "الأبعاد: 22.7cm x 12.7cm x 6.5cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Durable and convenient for daily use",
+        "Elegant and luxurious design",
+        "Suitable for office, reception area, or living room",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة كروكو",
+        "متين ومريح للاستخدام اليومي",
+        "تصميم أنيق وفاخر",
+        "يمكن استخدامه للمكتب أو صالة الاستقبال أو صالون المنزل",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": true
+    },
+    {
+      "slug": "luxury-personal-tray-walnut-leather-mother-of-pearl",
+      "cat": "hospitality",
+      "img": "product-personal-tray.jpg",
+      "en": "Luxury Personal Tray – Walnut Wood, Natural Leather & Mother-of-Pearl Inlay",
+      "ar": "صينية فخمة من خشب الجوز والجلد الطبيعي للأغراض الشخصية بتطعيم الصدف اللامع",
+      "dims": "20 cm × 20 cm",
+      "dimsAr": "الأبعاد: 20cm x 20cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Durable for daily or office use",
+        "Elegant and luxurious design",
+        "Suitable for office, home, or as refined gifts",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة التمساح",
+        "متين للاستخدام اليومي أو المكتبي",
+        "تصميم أنيق وفاخر",
+        "يمكن استخدامه للمكتب أو المنزل أو هدايا راقية",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
+      "oldSlug": "luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
+      "cat": "hospitality",
+      "img": "product-tea-dish-square.jpg",
+      "en": "Luxury Square Tea Dish – Walnut Wood with Mother-of-Pearl Inlay",
+      "ar": "صحن شاي مربع فاخر من خشب الجوز بتطعيم من الصدف",
+      "dims": "Shape: Square · 10 cm × 10 cm",
+      "dimsAr": "الشكل: مربع · الأبعاد: 10cm x 10cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of natural walnut wood with lustrous mother-of-pearl",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز الطبيعي والصدف اللامع",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-coffee-dish-walnut-mother-of-pearl",
+      "cat": "hospitality",
+      "img": "product-coffee-dish.jpg",
+      "en": "Luxury Coffee Dish – Walnut Wood with Mother-of-Pearl Inlay",
+      "ar": "صحن قهوة فاخر من خشب الجوز بتطعيم الصدف",
+      "dims": "Shape: Round · Diameter: 10 cm",
+      "dimsAr": "الشكل: دائري · القطر: 10cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of natural walnut wood with lustrous mother-of-pearl",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز الطبيعي والصدف اللامع",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-espresso-dish-round-walnut-mother-of-pearl",
+      "cat": "hospitality",
+      "img": "product-espresso-round.jpg",
+      "en": "Luxury Espresso Coffee Dish – Walnut Wood with Mother-of-Pearl (Round)",
+      "ar": "صحن قهوة إسبريسو فاخر من خشب الجوز مع الصدف – دائري",
+      "dims": "Shape: Round · Diameter: 8.5 cm",
+      "dimsAr": "الشكل: دائري · القطر: 8.5cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of natural walnut wood with lustrous mother-of-pearl",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز الطبيعي والصدف اللامع",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-espresso-dish-square-walnut-mother-of-pearl",
+      "cat": "hospitality",
+      "img": "product-espresso-square.jpg",
+      "en": "Luxury Espresso Coffee Dish – Walnut Wood with Mother-of-Pearl (Square)",
+      "ar": "صحن قهوة إسبريسو فاخر من خشب الجوز مع الصدف – مربع",
+      "dims": "Shape: Square · 8.8 cm × 8.8 cm",
+      "dimsAr": "الشكل: مربع · الأبعاد: 8.8cm x 8.8cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of natural walnut wood with lustrous mother-of-pearl",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز الطبيعي والصدف اللامع",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
+      "oldSlug": "walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
+      "cat": "hospitality",
+      "img": "product-5.jpg",
+      "en": "Round Coaster – Walnut Wood, Natural Leather & Mother-of-Pearl",
+      "ar": "كوستر دائري من خشب الجوز والجلد والصدف",
+      "dims": "Shape: Round · Diameter: 11 cm",
+      "dimsAr": "الشكل: دائري · القطر: 11cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": true
+    },
+    {
+      "slug": "square-coaster-walnut-leather-mother-of-pearl",
+      "cat": "hospitality",
+      "img": "product-coaster-square.jpg",
+      "en": "Square Coaster – Walnut Wood, Natural Leather & Mother-of-Pearl",
+      "ar": "كوستر مربع من خشب الجوز والجلد والصدف",
+      "dims": "Shape: Square · 10.7 cm × 10.7 cm × 1 cm",
+      "dimsAr": "الشكل: مربع · الأبعاد: 10.7cm x 10.7cm x 1cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-triple-candle-tray-walnut-mother-of-pearl",
+      "cat": "candles",
+      "img": "product-candle-tray-triple.jpg",
+      "en": "Luxury Triple Candle Tray – Walnut Wood with Mother-of-Pearl Inlay",
+      "ar": "صينية شموع فاخرة ثلاثية من خشب الجوز مع تطعيم بالصدف",
+      "dims": "11.8 cm × 32.2 cm · Base diameter: 9 cm",
+      "dimsAr": "الأبعاد: 11.8cm x 32.2cm · قطر القاعدة: 9cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة التمساح",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-vertical-walnut-tan-leather-tealight-holder",
+      "oldSlug": "luxury-vertical-walnut-tan-leather-tealight-holder",
+      "cat": "candles",
+      "img": "product-candle-holder.jpg",
+      "en": "Luxury Candle Holder – Walnut Wood, Natural Leather & Mother-of-Pearl Inlay",
+      "ar": "حامل شمعة فاخر من خشب الجوز والجلد الطبيعي بتطعيم من الصدف اللامع",
+      "dims": "Small 7 cm × 11 cm · Big 7 cm × 15 cm",
+      "dimsAr": "الأبعاد: صغير 7cm x 11cm · كبير 7cm x 15cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Elegant and luxurious design",
+        "Suitable for luxury home décor, offices, or as refined gifts",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة التمساح",
+        "تصميم أنيق وفاخر",
+        "يمكن استخدامه لتصميم المنازل الفاخرة أو المكاتب أو هدايا راقية",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "walnut-mother-of-pearl-executive-candle-base",
+      "oldSlug": "walnut-mother-of-pearl-executive-candle-base",
+      "cat": "candles",
+      "img": "product-candle-base.jpg",
+      "en": "Luxury Candle Base – Premium Walnut Wood with Natural Mother-of-Pearl Inlay",
+      "ar": "قاعدة شمعة فاخرة من خشب الجوز الفاخر بتطعيم الصدف الطبيعي اللامع",
+      "dims": "Shape: Square · 10 cm × 10 cm",
+      "dimsAr": "الشكل: مربع · الأبعاد: 10cm x 10cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of premium walnut wood and lustrous natural mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والصدف الطبيعي اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "small-luxury-candle-holder-walnut-mother-of-pearl",
+      "cat": "candles",
+      "img": "product-candle-holder-small.jpg",
+      "en": "Small Luxury Candle Holder – Premium Walnut Wood with Mother-of-Pearl Inlay",
+      "ar": "حامل شمعة صغير من خشب الجوز الفاخر بتطعيم الصدف الطبيعي اللامع",
+      "dims": "Diameter: 6.6 cm · Height: 2 cm",
+      "dimsAr": "القطر: 6.6cm · الارتفاع: 2cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of premium walnut wood and lustrous natural mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Elegant and luxurious design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والصدف الطبيعي اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تصميم أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "the-apex-walnut-business-card-holder",
+      "oldSlug": "the-apex-walnut-business-card-holder",
+      "cat": "business",
+      "img": "product-card-holder.jpg",
+      "en": "Luxury Business Card Holder – Walnut Wood with Mother-of-Pearl Inlay",
+      "ar": "حامل بطاقات العمل من خشب الجوز بتطعيم من الصدف اللامع",
+      "dims": "13 cm × 5 cm × 2 cm",
+      "dimsAr": "الأبعاد: 13cm x 5cm x 2cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Elegant and luxurious desk design",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تصميم مكتبي أنيق وفاخر",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "the-solid-walnut-executive-pen-base",
+      "oldSlug": "the-solid-walnut-executive-pen-base",
+      "cat": "business",
+      "img": "product-pen-base.jpg",
+      "en": "Luxury Desk Pen Base – Walnut Wood with Mother-of-Pearl Inlay",
+      "ar": "قاعدة قلم مكتبي من خشب الجوز وتطعيم من الصدف اللامع",
+      "dims": "Shape: Cube · 6 cm × 6 cm × 6 cm",
+      "dimsAr": "الشكل: مكعب · الأبعاد: 6cm x 6cm x 6cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of walnut wood and lustrous natural mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Elegant and luxurious design",
+        "Suitable for executive offices, writers' desks, or as a refined authentic gift",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والصدف الطبيعي اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تصميم أنيق وفاخر",
+        "يستخدم للمكاتب الإدارية أو مكاتب الكتّاب أو هدية أصيلة راقية",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-phone-stand-walnut-mother-of-pearl",
+      "cat": "business",
+      "img": "product-7.jpg",
+      "en": "Luxury Phone Stand – Walnut Wood, Natural Leather & Mother-of-Pearl Inlay",
+      "ar": "حامل هاتف فاخر من خشب الجوز والجلد الطبيعي، مطعّم بالصدف اللامع",
+      "dims": "21.7 cm × 11.2 cm",
+      "dimsAr": "الأبعاد: 21.7cm x 11.2cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Durable and comfortable for daily use",
+        "Suitable for phone or tablet",
+        "Ideal for desk use, work or study, watching content, or video calls in total comfort",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة التمساح",
+        "متين ومريح للاستخدام اليومي",
+        "مناسب للهاتف أو الآيباد",
+        "يمكن استخدامه للمكتب، أثناء العمل أو الدراسة، مشاهدة محتوى أو مكالمات فيديو براحة تامة",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": true
+    },
+    {
+      "slug": "handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
+      "oldSlug": "handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
+      "cat": "business",
+      "img": "product-ashtray.jpg",
+      "en": "Luxury Ashtray – Handcrafted Walnut Wood with Natural Mother-of-Pearl Inlay",
+      "ar": "منفضة سجائر من خشب الجوز المصنوعة يدوياً بتطعيم الصدف الطبيعي اللامع",
+      "dims": "12.8 cm × 12.8 cm × 2 cm",
+      "dimsAr": "الأبعاد: 12.8cm x 12.8cm x 2cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Elegant and luxurious design",
+        "Suitable for office or home use, as a refined gift, or a decorative piece",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تصميم أنيق وفاخر",
+        "يمكن استخدامه للمكتب أو المنزل، هدية راقية أو ديكور",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
+      "oldSlug": "luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
+      "cat": "bags",
+      "img": "product-handbag-grey.jpg",
+      "bags": true,
+      "en": "Luxury Handbag – Natural Croc-Embossed Leather with Walnut & Mother-of-Pearl Handle",
+      "ar": "حقيبة يد فاخرة من الجلد الطبيعي مع مقبض من خشب الجوز المطعّم بالصدف",
+      "dims": "Width 25 cm × Height 19.5 cm × Depth 10 cm · Detachable 55 cm leather shoulder strap",
+      "dimsAr": "الأبعاد: عرض 25 سم × ارتفاع 19.5 سم × عمق 10 سم · حزام كتف جلدي قابل للفصل بطول 55 سم",
+      "featEn": [
+        "100% hand-stitched",
+        "Wooden handle inlaid with lustrous mother-of-pearl",
+        "Mother-of-pearl and wood vein hand-stitched onto the leather cover",
+        "Made of natural crocodile-pattern leather",
+        "Fully lined in natural leather",
+        "Detachable 55 cm leather shoulder strap",
+        "Can be carried by hand, on the shoulder, or crossbody",
+        "Single compartment with an internal pocket",
+        "Dust bag included"
+      ],
+      "featAr": [
+        "خياطة يدوية 100%",
+        "مقبض خشبي مطعّم بالصّدف اللّامع",
+        "عرق الصّدف والخشب مخيط يدوياً على غطاء الجلد",
+        "مصنوعة من الجلد الطّبيعي بنقشة التمساح",
+        "بطانة كاملة من الجلد الطّبيعي",
+        "حزام كتف جلدي قابل للفصل بطول 55 سم",
+        "يمكن حملها باليد أو على الكتف أو بشكل متقاطع",
+        "حجرة واحدة مع جيب داخلي",
+        "تتضمّن حقيبة الغبار"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-emerald-leather-handbag-walnut-pearl-handle",
+      "cat": "bags",
+      "img": "product-handbag-green.jpg",
+      "bags": true,
+      "en": "Luxury Emerald Handbag – Natural Croc-Embossed Leather with Walnut & Mother-of-Pearl Handle",
+      "ar": "حقيبة يد فاخرة خضراء من الجلد الطبيعي مع مقبض من خشب الجوز المطعّم بالصدف",
+      "dims": "Width 21 cm × Height 15.5 cm × Depth 10 cm · Detachable 55 cm leather shoulder strap",
+      "dimsAr": "الأبعاد: العرض 21 سم × الارتفاع 15.5 سم × العمق 10 سم · حزام كتف جلدي قابل للفصل بطول 55 سم",
+      "featEn": [
+        "100% hand-stitched",
+        "Wooden handle inlaid with mother-of-pearl",
+        "Mother-of-pearl and wood vein hand-stitched onto the leather cover",
+        "Made of natural crocodile-pattern leather",
+        "Fully lined in natural leather",
+        "Detachable 55 cm leather shoulder strap",
+        "Can be carried by hand, on the shoulder, or crossbody",
+        "Single compartment with an internal pocket",
+        "Dust bag included"
+      ],
+      "featAr": [
+        "خياطة يدوية 100%",
+        "مقبض خشبي مطعّم بالصّدف",
+        "عرق الصّدف والخشب مخيط يدوياً على غطاء الجلد",
+        "مصنوعة من جلد طبيعي بنقشة التمساح",
+        "بطانة كاملة من الجلد الطّبيعي",
+        "حزام كتف جلدي قابل للفصل بطول 55 سم",
+        "يمكن حملها باليد أو على الكتف أو بشكل متقاطع",
+        "مقصورة واحدة مع جيب داخلي",
+        "تتضمن حقيبة الغبار"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "luxury-emerald-green-leather-pearl-inlay-flower-vase",
+      "oldSlug": "luxury-emerald-green-leather-pearl-inlay-flower-vase",
+      "cat": "gifts",
+      "img": "product-vase.jpg",
+      "en": "Luxury Vase – Natural Leather & Mother-of-Pearl Inlay",
+      "ar": "مزهرية فاخرة بتطعيمات من الجلد الطبيعي والصدف",
+      "dims": "27 cm × 12 cm",
+      "dimsAr": "الأبعاد: 27cm x 12cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Body made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Elegant and luxurious design",
+        "Suitable for luxury home décor, offices, or corporate gifts as a vase or decorative piece",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة التمساح",
+        "تصميم أنيق وفاخر",
+        "يمكن استخدامه لتصميم المنازل الفاخرة أو المكاتب أو هدايا الشركات كمزهرية أو قطعة ديكور",
+        "يحمل بصمة حِرَفية مهنّا"
+      ],
+      "hasImg": false
+    },
+    {
+      "slug": "handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
+      "oldSlug": "handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
+      "cat": "gifts",
+      "img": "product-3.jpg",
+      "custom": true,
+      "en": "Luxury Keychain – Walnut Wood & Natural Leather with Mother-of-Pearl Inlay (Kufic Design)",
+      "ar": "تعليقة مفاتيح فاخرة من خشب الجوز والجلد الطّبيعي المطعّم بالصّدف اللّامع، بتصميم كوفي يعكس روح الحرفية والتّفاصيل الدّقيقة",
+      "dims": "Customisation available upon request (names or phrases)",
+      "dimsAr": "يمكن تخصيصها حسب الطلب (عبارات أو أسماء)",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of walnut wood, natural leather, and lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Finished with natural leather in a crocodile pattern",
+        "Elegant design combining simplicity with the beauty of Kufic calligraphy",
+        "Lightweight and durable for daily use",
+        "Suitable for personal use, luxury gifts, or travel souvenirs",
+        "Customisation available upon request (names or phrases)",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والجلد الطبيعي والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تفصيل من الجلد الطبيعي بنقشة التمساح",
+        "تصميم أنيق يجمع بين البساطة وفخامة الخط الكوفي",
+        "خفيفة ومتينة للاستخدام اليومي",
+        "مناسبة للاستخدام الشخصي، هدايا فاخرة، أو كتذكار قبل السفر",
+        "يمكن تخصيصها حسب الطلب (عبارات أو أسماء)",
+        "لمسة حرفية تعكس هوية مهنّا"
+      ],
+      "hasImg": true
+    },
+    {
+      "slug": "luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
+      "oldSlug": "luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
+      "cat": "gifts",
+      "img": "product-car-hanging.jpg",
+      "custom": true,
+      "en": "Luxury Car Hanging Ornament – Walnut Wood with Mother-of-Pearl Inlay (Kufic Design)",
+      "ar": "تعليقة سيارة فاخرة من خشب الجوز المطعّم بالصّدف اللّامع، بتصميم كوفي عريق",
+      "dims": "7 cm × 7 cm",
+      "dimsAr": "الأبعاد: 7cm x 7cm",
+      "featEn": [
+        "Fully handcrafted",
+        "Made of walnut wood with lustrous mother-of-pearl",
+        "Precisely inlaid mother-of-pearl within the wood",
+        "Elegant design combining simplicity with the heritage of Kufic calligraphy",
+        "Lightweight and durable for daily use",
+        "Suitable for personal use, luxury gifts, or travel souvenirs",
+        "Customisation available upon request",
+        "Carries the signature craftsmanship of Muhanna"
+      ],
+      "featAr": [
+        "صناعة يدوية بالكامل",
+        "جسم مصنوع من خشب الجوز والصدف اللامع",
+        "تطعيم الصدف داخل الخشب بدقة عالية",
+        "تصميم أنيق يجمع بين البساطة وفخامة الخط الكوفي",
+        "خفيفة ومتينة للاستخدام اليومي",
+        "مناسبة للاستخدام الشخصي، هدايا فاخرة، أو كتذكار للسفر",
+        "يمكن تخصيصها حسب الطلب",
+        "لمسة حرفية تعكس هوية مهنّا"
+      ],
+      "hasImg": false
+    }
+  ],
+  "faq": [
+    {
+      "qAr": "هل المنتجات مصنوعة يدوياً بالكامل؟",
+      "aAr": "نعم. كل قطعة في مهنّا كرافت مصنوعة يدوياً بالكامل من خشب الجوز والجلد الطبيعي والصدف اللامع، ويتم تطعيم الصدف داخل الخشب بدقة عالية.",
+      "qEn": "Are the pieces fully handmade?",
+      "aEn": "Yes. Every Muhanna Craft piece is fully handcrafted from walnut wood, natural leather and lustrous mother-of-pearl, with the mother-of-pearl precisely inlaid within the wood."
+    },
+    {
+      "qAr": "كم يستغرق الشحن؟",
+      "aAr": "الشحن خلال 7 أيام عمل لمعظم القطع. الحقائب تستغرق حتى 40 يوم عمل لأنها مخيطة يدوياً بالكامل.",
+      "qEn": "How long does shipping take?",
+      "aEn": "Shipping is within 7 working days for most pieces. Handbags take up to 40 working days because they are entirely hand-stitched."
+    },
+    {
+      "qAr": "هل يتم تصنيع القطع عند الطلب؟",
+      "aAr": "نعم. هذا المنتج يُصنع يدوياً خصيصاً لك عند الطلب، ولذلك تختلف كل قطعة قليلاً عن الأخرى.",
+      "qEn": "Are pieces made to order?",
+      "aEn": "Yes. Each product is handcrafted for you upon order, which is why every piece differs slightly from the next."
+    },
+    {
+      "qAr": "هل يمكن تخصيص القطع بالاسم أو عبارة؟",
+      "aAr": "نعم، تعليقات المفاتيح وتعليقات السيارة يمكن تخصيصها حسب الطلب بالأسماء أو العبارات بالخط الكوفي. تواصل معنا عبر واتساب لتفاصيل التخصيص.",
+      "qEn": "Can pieces be personalised with a name or phrase?",
+      "aEn": "Yes — keychains and car ornaments can be customised on request with names or phrases in Kufic calligraphy. Message us on WhatsApp for customisation details."
+    },
+    {
+      "qAr": "هل تقدمون هدايا الشركات بكميات؟",
+      "aAr": "نعم. نوفّر قطع الأعمال والضيافة كهدايا شركات بكميات، مع إمكانية التخصيص. تواصل معنا عبر واتساب لمناقشة الكميات والتفاصيل.",
+      "qEn": "Do you offer corporate gifting in bulk?",
+      "aEn": "Yes. Our business and hospitality pieces are available as corporate gifts in volume, with customisation available. Message us on WhatsApp to discuss quantities and details."
+    },
+    {
+      "qAr": "كيف أعتني بالخشب والصدف؟",
+      "aAr": "امسح القطعة بقطعة قماش ناعمة وجافة. تجنّب الماء الغزير والمنظفات الكيميائية وأشعة الشمس المباشرة لفترات طويلة، للحفاظ على لمعة الصدف ولون خشب الجوز.",
+      "qEn": "How do I care for the wood and mother-of-pearl?",
+      "aEn": "Wipe with a soft, dry cloth. Avoid excess water, chemical cleaners and prolonged direct sunlight to preserve the lustre of the mother-of-pearl and the colour of the walnut."
+    },
+    {
+      "qAr": "هل تشحنون خارج الإمارات؟",
+      "aAr": "نشحن داخل دولة الإمارات ودول الخليج. للطلبات الدولية، تواصل معنا عبر واتساب وسنؤكد لك التفاصيل والتكلفة.",
+      "qEn": "Do you ship outside the UAE?",
+      "aEn": "We ship within the UAE and across the GCC. For international orders, message us on WhatsApp and we'll confirm details and cost."
+    },
+    {
+      "qAr": "أين تقع مهنّا كرافت؟",
+      "aAr": "مهنّا كرافت مقرّها دبي، الإمارات العربية المتحدة. الطلبات والاستفسارات تتم عبر واتساب مباشرة.",
+      "qEn": "Where is Muhanna Craft based?",
+      "aEn": "Muhanna Craft is based in Dubai, United Arab Emirates. Orders and enquiries are handled directly over WhatsApp."
+    }
+  ]
+}

@@ -1,72 +1,245 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
-  "trailingSlash": false,
+  "trailingSlash": true,
   "redirects": [
     {
       "source": "/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
-      "destination": "/#collection",
+      "destination": "/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
       "permanent": true
     },
     {
-      "source": "/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
-      "destination": "/#collection",
+      "source": "/en/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
+      "destination": "/en/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
+      "destination": "/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
+      "destination": "/en/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
       "permanent": true
     },
     {
       "source": "/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
-      "destination": "/#collection",
+      "destination": "/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
       "permanent": true
     },
     {
-      "source": "/products/luxury-vertical-walnut-tan-leather-tealight-holder",
-      "destination": "/#collection",
+      "source": "/en/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
+      "destination": "/en/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
       "permanent": true
     },
     {
-      "source": "/products/the-apex-walnut-business-card-holder",
-      "destination": "/#collection",
+      "source": "/collections/:c/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
+      "destination": "/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
       "permanent": true
     },
     {
-      "source": "/products/the-solid-walnut-executive-pen-base",
-      "destination": "/#collection",
-      "permanent": true
-    },
-    {
-      "source": "/products/walnut-mother-of-pearl-executive-candle-base",
-      "destination": "/#collection",
-      "permanent": true
-    },
-    {
-      "source": "/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
-      "destination": "/#collection",
-      "permanent": true
-    },
-    {
-      "source": "/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
-      "destination": "/#collection",
-      "permanent": true
-    },
-    {
-      "source": "/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
-      "destination": "/#collection",
-      "permanent": true
-    },
-    {
-      "source": "/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
-      "destination": "/#collection",
+      "source": "/en/collections/:c/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
+      "destination": "/en/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
       "permanent": true
     },
     {
       "source": "/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
-      "destination": "/#collection",
+      "destination": "/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
       "permanent": true
     },
-
     {
-      "source": "/collections/vip-collection",
-      "destination": "/#collection",
+      "source": "/en/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
+      "destination": "/en/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
+      "destination": "/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
+      "destination": "/en/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-vertical-walnut-tan-leather-tealight-holder",
+      "destination": "/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/luxury-vertical-walnut-tan-leather-tealight-holder",
+      "destination": "/en/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/luxury-vertical-walnut-tan-leather-tealight-holder",
+      "destination": "/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/luxury-vertical-walnut-tan-leather-tealight-holder",
+      "destination": "/en/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/products/walnut-mother-of-pearl-executive-candle-base",
+      "destination": "/p/walnut-mother-of-pearl-executive-candle-base/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/walnut-mother-of-pearl-executive-candle-base",
+      "destination": "/en/p/walnut-mother-of-pearl-executive-candle-base/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/walnut-mother-of-pearl-executive-candle-base",
+      "destination": "/p/walnut-mother-of-pearl-executive-candle-base/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/walnut-mother-of-pearl-executive-candle-base",
+      "destination": "/en/p/walnut-mother-of-pearl-executive-candle-base/",
+      "permanent": true
+    },
+    {
+      "source": "/products/the-apex-walnut-business-card-holder",
+      "destination": "/p/the-apex-walnut-business-card-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/the-apex-walnut-business-card-holder",
+      "destination": "/en/p/the-apex-walnut-business-card-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/the-apex-walnut-business-card-holder",
+      "destination": "/p/the-apex-walnut-business-card-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/the-apex-walnut-business-card-holder",
+      "destination": "/en/p/the-apex-walnut-business-card-holder/",
+      "permanent": true
+    },
+    {
+      "source": "/products/the-solid-walnut-executive-pen-base",
+      "destination": "/p/the-solid-walnut-executive-pen-base/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/the-solid-walnut-executive-pen-base",
+      "destination": "/en/p/the-solid-walnut-executive-pen-base/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/the-solid-walnut-executive-pen-base",
+      "destination": "/p/the-solid-walnut-executive-pen-base/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/the-solid-walnut-executive-pen-base",
+      "destination": "/en/p/the-solid-walnut-executive-pen-base/",
+      "permanent": true
+    },
+    {
+      "source": "/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
+      "destination": "/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
+      "destination": "/en/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
+      "destination": "/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
+      "destination": "/en/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
+      "destination": "/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
+      "destination": "/en/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
+      "destination": "/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
+      "destination": "/en/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
+      "destination": "/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
+      "destination": "/en/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
+      "destination": "/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
+      "destination": "/en/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "permanent": true
+    },
+    {
+      "source": "/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
+      "destination": "/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
+      "destination": "/en/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
+      "destination": "/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
+      "destination": "/en/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
+      "destination": "/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
+      "destination": "/en/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:c/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
+      "destination": "/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:c/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
+      "destination": "/en/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
       "permanent": true
     },
     {
@@ -75,18 +248,18 @@
       "permanent": true
     },
     {
+      "source": "/en/collections/hospitality",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
       "source": "/collections/candles",
       "destination": "/#collection",
       "permanent": true
     },
     {
-      "source": "/collections/bags",
-      "destination": "/#collection",
-      "permanent": true
-    },
-    {
-      "source": "/collections/gifts",
-      "destination": "/#collection",
+      "source": "/en/collections/candles",
+      "destination": "/en/#collection",
       "permanent": true
     },
     {
@@ -95,64 +268,327 @@
       "permanent": true
     },
     {
+      "source": "/en/collections/business",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/bags",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/bags",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/gifts",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/gifts",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/vip-collection",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/vip-collection",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/all",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/all",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
       "source": "/collections/buisness",
       "destination": "/#collection",
       "permanent": true
     },
-    { "source": "/collections/all", "destination": "/#collection", "permanent": true },
-    { "source": "/vip-collection", "destination": "/#collection", "permanent": true },
-
-    { "source": "/pages/our-story", "destination": "/#about", "permanent": true },
-    { "source": "/pages/about", "destination": "/#about", "permanent": true },
-    { "source": "/pages/about-us", "destination": "/#about", "permanent": true },
-    { "source": "/pages/contact", "destination": "/#contact", "permanent": true },
-    { "source": "/pages/contact-us", "destination": "/#contact", "permanent": true },
-    { "source": "/pages/materials", "destination": "/#materials", "permanent": true },
-
-    { "source": "/collections/:slug/products/:handle", "destination": "/#collection", "permanent": true },
-    { "source": "/collections/:slug*", "destination": "/#collection", "permanent": true },
-    { "source": "/products/:handle*", "destination": "/#collection", "permanent": true },
-    { "source": "/pages/:handle*", "destination": "/#about", "permanent": true },
-    { "source": "/blogs/:path*", "destination": "/#about", "permanent": true },
-    { "source": "/policies/:path*", "destination": "/#contact", "permanent": true },
-    { "source": "/search", "destination": "/#collection", "permanent": true },
-    { "source": "/cart", "destination": "/#contact", "permanent": true },
-    { "source": "/cart/:path*", "destination": "/#contact", "permanent": true },
-    { "source": "/checkout", "destination": "/#contact", "permanent": true },
-    { "source": "/checkouts/:path*", "destination": "/#contact", "permanent": true },
-    { "source": "/account", "destination": "/#contact", "permanent": true },
-    { "source": "/account/:path*", "destination": "/#contact", "permanent": true },
-    { "source": "/apps/:path*", "destination": "/", "permanent": true },
-    { "source": "/a/:path*", "destination": "/", "permanent": true },
-    { "source": "/tools/:path*", "destination": "/", "permanent": true },
-    { "source": "/challenge", "destination": "/", "permanent": true },
-    { "source": "/password", "destination": "/", "permanent": true },
-    { "source": "/sitemap_products_1.xml", "destination": "/sitemap.xml", "permanent": true },
-    { "source": "/sitemap_collections_1.xml", "destination": "/sitemap.xml", "permanent": true },
-    { "source": "/sitemap_pages_1.xml", "destination": "/sitemap.xml", "permanent": true },
-
-    { "source": "/en", "destination": "/", "permanent": true },
-    { "source": "/en/products/:handle*", "destination": "/#collection", "permanent": true },
-    { "source": "/en/collections/:slug/products/:handle", "destination": "/#collection", "permanent": true },
-    { "source": "/en/collections/:slug*", "destination": "/#collection", "permanent": true },
-    { "source": "/en/pages/:handle*", "destination": "/#about", "permanent": true },
-    { "source": "/en/blogs/:path*", "destination": "/#about", "permanent": true },
-    { "source": "/en/policies/:path*", "destination": "/#contact", "permanent": true },
-    { "source": "/en/search", "destination": "/#collection", "permanent": true },
-    { "source": "/en/cart/:path*", "destination": "/#contact", "permanent": true },
-    { "source": "/en/account/:path*", "destination": "/#contact", "permanent": true },
-    { "source": "/en/:path*", "destination": "/", "permanent": true },
-
-    { "source": "/ar", "destination": "/", "permanent": true },
-    { "source": "/ar/:path*", "destination": "/", "permanent": true }
+    {
+      "source": "/en/collections/buisness",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/vip-collection",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/pages/our-story",
+      "destination": "/#story",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/our-story",
+      "destination": "/en/#story",
+      "permanent": true
+    },
+    {
+      "source": "/pages/about",
+      "destination": "/#story",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/about",
+      "destination": "/en/#story",
+      "permanent": true
+    },
+    {
+      "source": "/pages/about-us",
+      "destination": "/#story",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/about-us",
+      "destination": "/en/#story",
+      "permanent": true
+    },
+    {
+      "source": "/pages/contact",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/contact",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/pages/contact-us",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/contact-us",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/pages/materials",
+      "destination": "/#materials",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/materials",
+      "destination": "/en/#materials",
+      "permanent": true
+    },
+    {
+      "source": "/pages/faq",
+      "destination": "/#faq",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/faq",
+      "destination": "/en/#faq",
+      "permanent": true
+    },
+    {
+      "source": "/en/products/:handle*",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/products/:handle*",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/en/collections/:slug*",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:slug*",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/en/pages/:handle*",
+      "destination": "/en/#story",
+      "permanent": true
+    },
+    {
+      "source": "/pages/:handle*",
+      "destination": "/#story",
+      "permanent": true
+    },
+    {
+      "source": "/en/blogs/:path*",
+      "destination": "/en/#story",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/:path*",
+      "destination": "/#story",
+      "permanent": true
+    },
+    {
+      "source": "/en/policies/:path*",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/policies/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/search",
+      "destination": "/en/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/search",
+      "destination": "/#collection",
+      "permanent": true
+    },
+    {
+      "source": "/en/cart",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/cart/:path*",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/cart",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/cart/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/checkout",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/checkout/:path*",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/checkout",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/checkout/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/account",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/account/:path*",
+      "destination": "/en/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/account",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/account/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/checkouts/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/apps/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/a/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tools/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/challenge",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/password",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap_products_1.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap_collections_1.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap_pages_1.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/ar",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/:path*",
+      "destination": "/",
+      "permanent": true
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
         {
           "key": "Strict-Transport-Security",
           "value": "max-age=63072000; includeSubDomains; preload"
@@ -160,18 +596,22 @@
       ]
     },
     {
-      "source": "/(.*)\\.(jpg|jpeg|png|webp|avif|svg|ico|woff2)",
+      "source": "/(.*)\\.(jpg|jpeg|png|webp|avif|svg|ico|woff2|mp4)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
-      "source": "/robots.txt",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
-    },
-    {
-      "source": "/sitemap.xml",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+      "source": "/(robots.txt|sitemap.xml|llms.txt)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
     }
   ]
 }
