@@ -46,8 +46,8 @@ const out = (rel, html) => {
 };
 
 // Each product's URL in a given language
-const purl = (p, lang) => lang === 'ar' ? `/p/${p.slug}/` : `/en/p/${p.slug}/`;
-const home = lang => lang === 'ar' ? '/' : '/en/';
+const purl = (p, lang) => lang === 'ar' ? `/p/${p.slug}` : `/en/p/${p.slug}`;
+const home = lang => lang === 'ar' ? '/' : '/en';
 
 // Short plain-text description for meta tags (no markup, <=160 chars)
 const metaDesc = (p, lang) => {
@@ -764,13 +764,13 @@ function buildVercel() {
   // 2. Old collection URLs -> the collection section, per language
   for (const c of D.categories) {
     add(`/collections/${c.slug}`, '/#collection');
-    add(`/en/collections/${c.slug}`, '/en/#collection');
+    add(`/en/collections/${c.slug}`, '/en#collection');
   }
   // legacy slugs that existed on the old store
   for (const s of ['vip-collection', 'all', 'buisness', 'hospitality', 'candles', 'bags', 'gifts']) {
     if (!R.some(r => r.source === `/collections/${s}`)) {
       add(`/collections/${s}`, '/#collection');
-      add(`/en/collections/${s}`, '/en/#collection');
+      add(`/en/collections/${s}`, '/en#collection');
     }
   }
   add('/vip-collection', '/#collection');
@@ -780,24 +780,24 @@ function buildVercel() {
                         ['contact', '#contact'], ['contact-us', '#contact'], ['materials', '#materials'],
                         ['faq', '#faq']]) {
     add(`/pages/${s}`, '/' + d);
-    add(`/en/pages/${s}`, '/en/' + d);
+    add(`/en/pages/${s}`, '/en' + d);
   }
 
   // 4. Catch-alls for anything on the old store not listed above
-  add('/en/products/:handle*', '/en/#collection');
+  add('/en/products/:handle*', '/en#collection');
   add('/products/:handle*', '/#collection');
-  add('/en/collections/:slug*', '/en/#collection');
+  add('/en/collections/:slug*', '/en#collection');
   add('/collections/:slug*', '/#collection');
-  add('/en/pages/:handle*', '/en/#story');
+  add('/en/pages/:handle*', '/en#story');
   add('/pages/:handle*', '/#story');
-  add('/en/blogs/:path*', '/en/#story');
+  add('/en/blogs/:path*', '/en#story');
   add('/blogs/:path*', '/#story');
-  add('/en/policies/:path*', '/en/#contact');
+  add('/en/policies/:path*', '/en#contact');
   add('/policies/:path*', '/#contact');
-  add('/en/search', '/en/#collection');
+  add('/en/search', '/en#collection');
   add('/search', '/#collection');
   for (const s of ['cart', 'checkout', 'account']) {
-    add(`/en/${s}`, '/en/#contact'); add(`/en/${s}/:path*`, '/en/#contact');
+    add(`/en/${s}`, '/en#contact'); add(`/en/${s}/:path*`, '/en#contact');
     add(`/${s}`, '/#contact');       add(`/${s}/:path*`, '/#contact');
   }
   add('/checkouts/:path*', '/#contact');
@@ -810,7 +810,7 @@ function buildVercel() {
 
   return JSON.stringify({
     $schema: 'https://openapi.vercel.sh/vercel.json',
-    trailingSlash: true,
+    trailingSlash: false,
     redirects: R,
     headers: [
       { source: '/(.*)', headers: [

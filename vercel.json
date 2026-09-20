@@ -1,245 +1,245 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "trailingSlash": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
-      "destination": "/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
+      "destination": "/p/luxury-walnut-textured-leather-incense-burner-mabkhara",
       "permanent": true
     },
     {
       "source": "/en/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
-      "destination": "/en/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
+      "destination": "/en/p/luxury-walnut-textured-leather-incense-burner-mabkhara",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
-      "destination": "/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
+      "destination": "/p/luxury-walnut-textured-leather-incense-burner-mabkhara",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/luxury-walnut-textured-leather-incense-burner-mabkhara",
-      "destination": "/en/p/luxury-walnut-textured-leather-incense-burner-mabkhara/",
+      "destination": "/en/p/luxury-walnut-textured-leather-incense-burner-mabkhara",
       "permanent": true
     },
     {
       "source": "/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
-      "destination": "/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
+      "destination": "/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
-      "destination": "/en/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
+      "destination": "/en/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
-      "destination": "/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
+      "destination": "/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
-      "destination": "/en/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay/",
+      "destination": "/en/p/luxury-square-walnut-wood-tea-saucer-with-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
-      "destination": "/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
+      "destination": "/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
-      "destination": "/en/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
+      "destination": "/en/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
-      "destination": "/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
+      "destination": "/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
-      "destination": "/en/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay/",
+      "destination": "/en/p/walnut-wood-emerald-leather-coaster-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/products/luxury-vertical-walnut-tan-leather-tealight-holder",
-      "destination": "/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "destination": "/p/luxury-vertical-walnut-tan-leather-tealight-holder",
       "permanent": true
     },
     {
       "source": "/en/products/luxury-vertical-walnut-tan-leather-tealight-holder",
-      "destination": "/en/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "destination": "/en/p/luxury-vertical-walnut-tan-leather-tealight-holder",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/luxury-vertical-walnut-tan-leather-tealight-holder",
-      "destination": "/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "destination": "/p/luxury-vertical-walnut-tan-leather-tealight-holder",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/luxury-vertical-walnut-tan-leather-tealight-holder",
-      "destination": "/en/p/luxury-vertical-walnut-tan-leather-tealight-holder/",
+      "destination": "/en/p/luxury-vertical-walnut-tan-leather-tealight-holder",
       "permanent": true
     },
     {
       "source": "/products/walnut-mother-of-pearl-executive-candle-base",
-      "destination": "/p/walnut-mother-of-pearl-executive-candle-base/",
+      "destination": "/p/walnut-mother-of-pearl-executive-candle-base",
       "permanent": true
     },
     {
       "source": "/en/products/walnut-mother-of-pearl-executive-candle-base",
-      "destination": "/en/p/walnut-mother-of-pearl-executive-candle-base/",
+      "destination": "/en/p/walnut-mother-of-pearl-executive-candle-base",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/walnut-mother-of-pearl-executive-candle-base",
-      "destination": "/p/walnut-mother-of-pearl-executive-candle-base/",
+      "destination": "/p/walnut-mother-of-pearl-executive-candle-base",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/walnut-mother-of-pearl-executive-candle-base",
-      "destination": "/en/p/walnut-mother-of-pearl-executive-candle-base/",
+      "destination": "/en/p/walnut-mother-of-pearl-executive-candle-base",
       "permanent": true
     },
     {
       "source": "/products/the-apex-walnut-business-card-holder",
-      "destination": "/p/the-apex-walnut-business-card-holder/",
+      "destination": "/p/the-apex-walnut-business-card-holder",
       "permanent": true
     },
     {
       "source": "/en/products/the-apex-walnut-business-card-holder",
-      "destination": "/en/p/the-apex-walnut-business-card-holder/",
+      "destination": "/en/p/the-apex-walnut-business-card-holder",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/the-apex-walnut-business-card-holder",
-      "destination": "/p/the-apex-walnut-business-card-holder/",
+      "destination": "/p/the-apex-walnut-business-card-holder",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/the-apex-walnut-business-card-holder",
-      "destination": "/en/p/the-apex-walnut-business-card-holder/",
+      "destination": "/en/p/the-apex-walnut-business-card-holder",
       "permanent": true
     },
     {
       "source": "/products/the-solid-walnut-executive-pen-base",
-      "destination": "/p/the-solid-walnut-executive-pen-base/",
+      "destination": "/p/the-solid-walnut-executive-pen-base",
       "permanent": true
     },
     {
       "source": "/en/products/the-solid-walnut-executive-pen-base",
-      "destination": "/en/p/the-solid-walnut-executive-pen-base/",
+      "destination": "/en/p/the-solid-walnut-executive-pen-base",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/the-solid-walnut-executive-pen-base",
-      "destination": "/p/the-solid-walnut-executive-pen-base/",
+      "destination": "/p/the-solid-walnut-executive-pen-base",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/the-solid-walnut-executive-pen-base",
-      "destination": "/en/p/the-solid-walnut-executive-pen-base/",
+      "destination": "/en/p/the-solid-walnut-executive-pen-base",
       "permanent": true
     },
     {
       "source": "/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
-      "destination": "/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "destination": "/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
-      "destination": "/en/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "destination": "/en/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
-      "destination": "/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "destination": "/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
-      "destination": "/en/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay/",
+      "destination": "/en/p/handcrafted-walnut-wood-cigar-ashtray-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
-      "destination": "/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "destination": "/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
       "permanent": true
     },
     {
       "source": "/en/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
-      "destination": "/en/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "destination": "/en/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
-      "destination": "/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "destination": "/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
-      "destination": "/en/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle/",
+      "destination": "/en/p/luxury-croc-embossed-leather-handbag-with-walnut-pearl-handle",
       "permanent": true
     },
     {
       "source": "/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
-      "destination": "/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "destination": "/p/luxury-emerald-green-leather-pearl-inlay-flower-vase",
       "permanent": true
     },
     {
       "source": "/en/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
-      "destination": "/en/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "destination": "/en/p/luxury-emerald-green-leather-pearl-inlay-flower-vase",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
-      "destination": "/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "destination": "/p/luxury-emerald-green-leather-pearl-inlay-flower-vase",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/luxury-emerald-green-leather-pearl-inlay-flower-vase",
-      "destination": "/en/p/luxury-emerald-green-leather-pearl-inlay-flower-vase/",
+      "destination": "/en/p/luxury-emerald-green-leather-pearl-inlay-flower-vase",
       "permanent": true
     },
     {
       "source": "/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
-      "destination": "/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "destination": "/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
       "permanent": true
     },
     {
       "source": "/en/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
-      "destination": "/en/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "destination": "/en/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
-      "destination": "/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "destination": "/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
-      "destination": "/en/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay/",
+      "destination": "/en/p/handcrafted-walnut-wood-leather-keychain-with-kufic-inlay",
       "permanent": true
     },
     {
       "source": "/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
-      "destination": "/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
+      "destination": "/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
-      "destination": "/en/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
+      "destination": "/en/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/collections/:c/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
-      "destination": "/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
+      "destination": "/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
       "source": "/en/collections/:c/products/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
-      "destination": "/en/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay/",
+      "destination": "/en/p/luxury-car-hanging-ornament-walnut-wood-with-mother-of-pearl-inlay",
       "permanent": true
     },
     {
@@ -249,7 +249,7 @@
     },
     {
       "source": "/en/collections/hospitality",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "source": "/en/collections/candles",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "source": "/en/collections/business",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -279,7 +279,7 @@
     },
     {
       "source": "/en/collections/bags",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -289,7 +289,7 @@
     },
     {
       "source": "/en/collections/gifts",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -299,7 +299,7 @@
     },
     {
       "source": "/en/collections/vip-collection",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -309,7 +309,7 @@
     },
     {
       "source": "/en/collections/all",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -319,7 +319,7 @@
     },
     {
       "source": "/en/collections/buisness",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -334,7 +334,7 @@
     },
     {
       "source": "/en/pages/our-story",
-      "destination": "/en/#story",
+      "destination": "/en#story",
       "permanent": true
     },
     {
@@ -344,7 +344,7 @@
     },
     {
       "source": "/en/pages/about",
-      "destination": "/en/#story",
+      "destination": "/en#story",
       "permanent": true
     },
     {
@@ -354,7 +354,7 @@
     },
     {
       "source": "/en/pages/about-us",
-      "destination": "/en/#story",
+      "destination": "/en#story",
       "permanent": true
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "source": "/en/pages/contact",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
@@ -374,7 +374,7 @@
     },
     {
       "source": "/en/pages/contact-us",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
@@ -384,7 +384,7 @@
     },
     {
       "source": "/en/pages/materials",
-      "destination": "/en/#materials",
+      "destination": "/en#materials",
       "permanent": true
     },
     {
@@ -394,12 +394,12 @@
     },
     {
       "source": "/en/pages/faq",
-      "destination": "/en/#faq",
+      "destination": "/en#faq",
       "permanent": true
     },
     {
       "source": "/en/products/:handle*",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -409,7 +409,7 @@
     },
     {
       "source": "/en/collections/:slug*",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -419,7 +419,7 @@
     },
     {
       "source": "/en/pages/:handle*",
-      "destination": "/en/#story",
+      "destination": "/en#story",
       "permanent": true
     },
     {
@@ -429,7 +429,7 @@
     },
     {
       "source": "/en/blogs/:path*",
-      "destination": "/en/#story",
+      "destination": "/en#story",
       "permanent": true
     },
     {
@@ -439,7 +439,7 @@
     },
     {
       "source": "/en/policies/:path*",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
@@ -449,7 +449,7 @@
     },
     {
       "source": "/en/search",
-      "destination": "/en/#collection",
+      "destination": "/en#collection",
       "permanent": true
     },
     {
@@ -459,12 +459,12 @@
     },
     {
       "source": "/en/cart",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
       "source": "/en/cart/:path*",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
@@ -479,12 +479,12 @@
     },
     {
       "source": "/en/checkout",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
       "source": "/en/checkout/:path*",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
@@ -499,12 +499,12 @@
     },
     {
       "source": "/en/account",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
       "source": "/en/account/:path*",
-      "destination": "/en/#contact",
+      "destination": "/en#contact",
       "permanent": true
     },
     {
